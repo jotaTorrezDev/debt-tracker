@@ -2,8 +2,8 @@
 cd /d "%~dp0"
 where pythonw >nul 2>&1 && goto rodar
 where pyw >nul 2>&1 && goto rodar_py
-echo Python nao encontrado neste computador.
-echo Vou abrir o site para instalar. Na instalacao, MARQUE "Add python.exe to PATH".
+echo caso o Python nao encontrado neste computador segue a parte de baixo.
+echo quando voce abrir site para instalar. Na instalacao, MARQUE "Add python.exe to PATH".
 start https://www.python.org/downloads/
 pause
 exit /b
